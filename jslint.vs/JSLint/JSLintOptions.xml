@@ -21,4 +21,6 @@
 	<option id="plusplus" name="Disallow ++ and --" />
 	<option id="bitwise" name="Disallow bitwise operators" />
 	<option id="adsafe" name="ADsafe" />
+  <option id="onevar" name="Allow one var statement per function" />
+
 </options>
