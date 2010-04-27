@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--List of JSLint.VS options-->
+<options recommended="eqeqeq, nomen, undef, white" goodparts="bitwise, eqeqeq, nomen, plusplus, undef, white">
+	<option id="passfail" name="Stop on first error" />
+	<option id="white" name="Strict whitespace" />
+	<option id="browser" name="Assume a browser" />
+	<option id="widget" name="Assume a Yahoo Widget" />
+	<option id="rhino" name="Assume Rhino" />
+
+	<option id="debug" name="Tolerate debugger statements" />
+	<option id="evil" name="Tolerate eval" />
+	<option id="cap" name="Tolerate HTML case" />
+	<option id="on" name="Tolerate HTML event handlers" />
+	<option id="fragment" name="Tolerate HTML fragments" />
+	<option id="laxbreak" name="Tolerate sloppy line breaking" />
+	<option id="forin" name="Tolerate unfiltered for in" />
+
+	<option id="undef" name="Disallow undefined variables" />
+	<option id="nomen" name="Disallow leading _ in identifiers" />
+	<option id="eqeqeq" name="Disallow == and !=" />
+	<option id="plusplus" name="Disallow ++ and --" />
+	<option id="bitwise" name="Disallow bitwise operators" />
+	<option id="adsafe" name="ADsafe" />
+</options>

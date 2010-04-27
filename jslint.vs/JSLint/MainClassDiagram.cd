@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="JSLint.Connect" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Connect.cs</FileName>
+      <HashCode>gCBAIABMAAAgIABIgAQAAQAAKAQEABAACCAgQCBAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="JSLint.ForCheckingList">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>ForCheckingList.cs</FileName>
+      <HashCode>AAQAAEAAAAAADAAAAAAAAAAAACAAAAAggAAIAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="JSLint.FileDataHolder">
+    <Position X="0.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>ForCheckingList.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAIAAAACAAAAAABAAAQCAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="JSLint.OptionsForm">
+    <Position X="5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>OptionsForm.cs</FileName>
+      <HashCode>IGAACjABBCABEpUREACAAIAfIKDADFQQgAAAEhEBCSE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="JSLint.JSLintOptionsItem">
+    <Position X="5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>OptionsForm.cs</FileName>
+      <HashCode>AAACIAAAAAAAAAAEAABAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="DictionarySerializer">
+    <Position X="2.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>DictionarySerializer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Class Name="DictionarySerializer.Entry" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DictionarySerializer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+</ClassDiagram>
