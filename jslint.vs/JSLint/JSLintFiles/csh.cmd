@@ -1,1 +1,1 @@
-@cscript %*
+@cscript /e:javascript %*
