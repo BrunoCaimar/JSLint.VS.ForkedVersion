@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{621CC3D7-1FE6-48FD-B2ED-CF6BA0D720DA}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -172,9 +172,8 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>copy "$(TargetDir)JsLint.AddIn" 	"D:\Documents\Visual Studio 2008\Addins\JsLint.AddIn"
-copy "$(TargetDir)JsLint.dll" 		"D:\Documents\Visual Studio 2008\Addins\JsLint.dll"
-copy "$(TargetDir)JsLint.dll.config" 	"D:\Documents\Visual Studio 2008\Addins\JsLint.dll.config"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
