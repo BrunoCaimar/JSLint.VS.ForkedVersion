@@ -1,20 +1,13 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Reflection;
-using System.Text;
-using System.Threading;
 using System.Windows.Forms;
 using System.Xml;
-using System.Xml.Serialization;
 
 using EnvDTE;
 using JSLint.Properties;
-using System.Collections.Specialized;
 
 namespace JSLint
 {
@@ -33,10 +26,10 @@ namespace JSLint
             groupIntegrateWithBuild.DataBindings.Add("Enabled", chkIntegrateWithBuild, "Checked");
             treeSolution.DataBindings.Add("Enabled", chkScheckingScope, "Checked");
 
-            if (ActiveSln == null)
-            {
-                groupCheckingScope.Enabled = false;
-            }
+            //if (ActiveSln == null)
+            //{
+            //    groupCheckingScope.Enabled = false;
+            //}
 
             if (LicenseManager.UsageMode == LicenseUsageMode.Runtime)
             {
@@ -173,7 +166,7 @@ namespace JSLint
             foreach (XmlNode node in _xdJsLint.DocumentElement.ChildNodes)
             {
                 chkListJSLintOptions.Items.Add(new JSLintOptionsItem(
-                    node.Attributes["id"].Value, node.Attributes["name"].Value), false);
+                    node.Attributes["id"].Value, node.Attributes["name"].Value),  false);
             }
         }
 
@@ -225,7 +218,7 @@ namespace JSLint
                 _activeSln = value;
                 treeSolution.Nodes.Clear();
 
-                groupCheckingScope.Enabled = (_activeSln != null);
+                //groupCheckingScope.Enabled = (_activeSln != null);
 
                 if (_activeSln != null)
                 {
