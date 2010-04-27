@@ -70,7 +70,7 @@ namespace JSLint
             this.treeSolution.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeSolution.Location = new System.Drawing.Point(3, 16);
             this.treeSolution.Name = "treeSolution";
-            this.treeSolution.Size = new System.Drawing.Size(347, 216);
+            this.treeSolution.Size = new System.Drawing.Size(750, 216);
             this.treeSolution.TabIndex = 1;
             // 
             // groupIntegrateWithBuild
@@ -79,7 +79,7 @@ namespace JSLint
             this.groupIntegrateWithBuild.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupIntegrateWithBuild.Location = new System.Drawing.Point(0, 233);
             this.groupIntegrateWithBuild.Name = "groupIntegrateWithBuild";
-            this.groupIntegrateWithBuild.Size = new System.Drawing.Size(365, 286);
+            this.groupIntegrateWithBuild.Size = new System.Drawing.Size(768, 286);
             this.groupIntegrateWithBuild.TabIndex = 2;
             this.groupIntegrateWithBuild.TabStop = false;
             // 
@@ -102,7 +102,7 @@ namespace JSLint
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(359, 267);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(762, 267);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // groupCheckingScope
@@ -113,7 +113,7 @@ namespace JSLint
             this.groupCheckingScope.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupCheckingScope.Location = new System.Drawing.Point(3, 29);
             this.groupCheckingScope.Name = "groupCheckingScope";
-            this.groupCheckingScope.Size = new System.Drawing.Size(353, 235);
+            this.groupCheckingScope.Size = new System.Drawing.Size(756, 235);
             this.groupCheckingScope.TabIndex = 3;
             this.groupCheckingScope.TabStop = false;
             // 
@@ -173,7 +173,7 @@ namespace JSLint
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(284, 6);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.Size = new System.Drawing.Size(475, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "seconds";
             // 
@@ -184,7 +184,7 @@ namespace JSLint
             this.groupJSLintOptions.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupJSLintOptions.Location = new System.Drawing.Point(0, 0);
             this.groupJSLintOptions.Name = "groupJSLintOptions";
-            this.groupJSLintOptions.Size = new System.Drawing.Size(365, 233);
+            this.groupJSLintOptions.Size = new System.Drawing.Size(768, 233);
             this.groupJSLintOptions.TabIndex = 2;
             this.groupJSLintOptions.TabStop = false;
             this.groupJSLintOptions.Text = "JSLint Options";
@@ -192,33 +192,43 @@ namespace JSLint
             // chkListJSLintOptions
             // 
             this.chkListJSLintOptions.CheckOnClick = true;
-            this.chkListJSLintOptions.ColumnWidth = 175;
+            this.chkListJSLintOptions.ColumnWidth = 250;
             this.chkListJSLintOptions.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chkListJSLintOptions.FormattingEnabled = true;
             this.chkListJSLintOptions.Items.AddRange(new object[] {
             "Stop on first error",
-            "Strict whitespace",
+            "Strict white space",
             "Assume a browser",
+            "Assume console, alert, ...",
             "Assume a Yahoo Widget",
+            "Assume Windows",
             "Assume Rhino",
-            "",
+            "Safe Subset",
+            "ADsafe",
             "Tolerate debugger statements",
             "Tolerate eval",
-            "Tolerate HTML case",
-            "Tolearte HTML event handlers",
             "Tolerate sloppy line breaking",
             "Tolerate unfiltered for in",
-            "",
+            "Tolerate inefficient subscripting",
+            "Tolerate CSS workarounds",
+            "Tolerate HTML case",
+            "Tolerate HTML event handlers",
+            "Tolerate HTML fragments",
+            "Tolerate ES5 syntax",
+            "Allow one var statement per function",
             "Disallow undefined variables",
-            "Disallow leading _ in identifiers",
+            "Disallow dangling _ in identifiers",
             "Disallow == and !=",
             "Disallow ++ and --",
             "Disallow bitwise operators",
-            "ADsafe"});
+            "Disallow insecure . and [^...] in /RegExp/",
+            "Require \"use strict\";",
+            "Require Initial Caps for constructors",
+            "Require parens around immediate invocations "});
             this.chkListJSLintOptions.Location = new System.Drawing.Point(3, 16);
             this.chkListJSLintOptions.MultiColumn = true;
             this.chkListJSLintOptions.Name = "chkListJSLintOptions";
-            this.chkListJSLintOptions.Size = new System.Drawing.Size(359, 184);
+            this.chkListJSLintOptions.Size = new System.Drawing.Size(762, 184);
             this.chkListJSLintOptions.TabIndex = 0;
             // 
             // flowLayoutPanel1
@@ -231,7 +241,7 @@ namespace JSLint
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 201);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(359, 29);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(762, 29);
             this.flowLayoutPanel1.TabIndex = 4;
             // 
             // btnClearJSLintOptions
@@ -274,7 +284,7 @@ namespace JSLint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 519);
+            this.ClientSize = new System.Drawing.Size(768, 519);
             this.Controls.Add(this.chkIntegrateWithBuild);
             this.Controls.Add(this.groupIntegrateWithBuild);
             this.Controls.Add(this.groupJSLintOptions);
@@ -282,8 +292,8 @@ namespace JSLint
             this.Name = "OptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JSLint.VS Options";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OptionsForm_FormClosing);
             this.Load += new System.EventHandler(this.OptionsForm_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OptionsForm_FormClosing);
             this.groupIntegrateWithBuild.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

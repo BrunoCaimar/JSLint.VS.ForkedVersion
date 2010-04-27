@@ -1,26 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--List of JSLint.VS options-->
-<options recommended="eqeqeq, nomen, undef, white" goodparts="bitwise, eqeqeq, nomen, plusplus, undef, white">
-	<option id="passfail" name="Stop on first error" />
-	<option id="white" name="Strict whitespace" />
-	<option id="browser" name="Assume a browser" />
-	<option id="widget" name="Assume a Yahoo Widget" />
-	<option id="rhino" name="Assume Rhino" />
-
-	<option id="debug" name="Tolerate debugger statements" />
-	<option id="evil" name="Tolerate eval" />
-	<option id="cap" name="Tolerate HTML case" />
-	<option id="on" name="Tolerate HTML event handlers" />
-	<option id="fragment" name="Tolerate HTML fragments" />
-	<option id="laxbreak" name="Tolerate sloppy line breaking" />
-	<option id="forin" name="Tolerate unfiltered for in" />
-
-	<option id="undef" name="Disallow undefined variables" />
-	<option id="nomen" name="Disallow leading _ in identifiers" />
-	<option id="eqeqeq" name="Disallow == and !=" />
-	<option id="plusplus" name="Disallow ++ and --" />
-	<option id="bitwise" name="Disallow bitwise operators" />
-	<option id="adsafe" name="ADsafe" />
-  <option id="onevar" name="Allow one var statement per function" />
-
+<options recommended="white, onevar, undef, nomen, eqeqeq, plusplus, bitwise, regexp, strict, newcap, immed, browser" goodparts="white, onevar, undef, nomen, eqeqeq, plusplus, bitwise, regexp, strict, newcap, immed">
+  <option name="Stop on first error" id="passfail" description="true if the scan should stop on first error."/>
+  <option name="Strict white space" id="white" description="true if strict whitespace rules apply."/>
+  <option name="Assume a browser" id="browser" description="true if the standard browser globals should be predefined."/>
+  <option name="Assume console, alert, ..." id="devel" description="true if browser globals that are useful in development should be predefined. "/>
+  <option name="Assume a Yahoo Widget" id="widget" description="true if the Yahoo Widgets globals should be predefined. "/>
+  <option name="Assume Windows" id="windows" description="true if the Windows globals should be predefined. "/>
+  <option name="Assume Rhino" id="rhino" description="true if the Rhino environment globals should be predefined. "/>
+  <option name="Safe Subset" id="safe" description="true if the safe subset rules are enforced. These rules are used by ADsafe. It enforces the safe subset rules but not the widget structure rules."/>
+  <option name="ADsafe" id="adsafe" description="true if ADsafe  rules should be enforced. See http://www.ADsafe.org/."/>
+  <option name="Tolerate debugger statements" id="debug" description="true if debugger statements should be allowed. Set this option to false before going into production."/>
+  <option name="Tolerate eval" id="evil" description="true if eval should be allowed. "/>
+  <option name="Tolerate sloppy line breaking" id="laxbreak" description="true if statement breaks should not be checked. "/>
+  <option name="Tolerate unfiltered for in" id="forin" description="true if unfiltered for in statements should be allowed. "/>
+  <option name="Tolerate inefficient subscripting" id="sub" description="true if subscript notation may be used for expressions better expressed in dot notation."/>
+  <option name="Tolerate CSS workarounds" id="css" description="true if CSS workarounds should be tolerated. "/>
+  <option name="Tolerate HTML case" id="cap" description="true if upper case HTML should be allowed."/>
+  <option name="Tolerate HTML event handlers" id="on" description="true if HTML event handlers should be allowed. "/>
+  <option name="Tolerate HTML fragments" id="fragment" description="true if HTML fragments should be allowed. "/>
+  <option name="Tolerate ES5 syntax" id="es5" description="true if ES5 syntax should be allowed."/>
+  <option name="Allow one var statement per function" id="onevar" description="true if only one var statement per function should be allowed. "/>
+  <option name="Disallow undefined variables" id="undef" description="true if variables must be declared before used. "/>
+  <option name="Disallow dangling _ in identifiers" id="nomen" description="true if names should be checked for initial or trailing underbars"/>
+  <option name="Disallow == and !=" id="eqeqeq" description="true if === should be required. "/>
+  <option name="Disallow ++ and --" id="plusplus" description="true if ++ and -- should not be allowed. "/>
+  <option name="Disallow bitwise operators" id="bitwise" description="true if bitwise operators should not be allowed."/>
+  <option name="Disallow insecure . and [^...]. in /RegExp/" id="regexp" description="true if . and [^...] should not be allowed in RegExp literals. These forms should not be used when validating in secure applications."/>
+  <option name="Require 'use strict';" id="strict" description="true if the ES5 'use strict'; pragma is required."/>
+  <option name="Require Initial Caps for constructors" id="newcap" description="true if Initial Caps must be used with constructor functions. "/>
+  <option name="Require parens around immediate invocations" id="immed" description="true if immediate function invocations must be wrapped in parens"/>
 </options>
