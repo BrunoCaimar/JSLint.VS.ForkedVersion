@@ -178,6 +178,12 @@ namespace JSLint
                 catch (Exception ex)
                 {
                     // Block used for debugging of exceptions raised during parsing
+                    EventLog.WriteEntry("JSLint.VS",
+                                        string.Format("{0} {1} StackTrace:{2}",
+                                                      ex.Message,
+                                                      Environment.NewLine,
+                                                      ex.StackTrace));
+
                 }
             }
 
